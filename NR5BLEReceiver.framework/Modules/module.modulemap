@@ -1,0 +1,4 @@
+framework module NR5BLEReceiver {
+    header "NR5BLEReceiver-Swift.h"
+    requires objc
+}
