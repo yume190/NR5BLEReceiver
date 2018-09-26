@@ -1,4 +1,4 @@
-s.dependency::Spec.new do |s|
+Pod::Spec.new do |s|
     s.name     = 'NR5BLEReceiver'
     s.version  = '1.0.3'
     s.license  = 'MIT'
