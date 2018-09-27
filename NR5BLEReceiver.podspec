@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
     s.source   = { :git => 'https://github.com/yume190/NR5BLEReceiver.git', :tag => s.version }
 
     s.ios.deployment_target = '9.0'
-    s.ios.vendored_frameworks = 'NR5BLEReceiver.framework'
-    s.source_files = "BLEData/YumeData.h"
-    s.module_map = "BLEData/module.modulemap"
+    s.ios.vendored_frameworks = 'NR5BLEReceiver.framework', 'BLEData.framework'
     # s.source_files = ['NR5BLEReceiver.framework']
+    # s.source_files = "BLEData/YumeData.h"
+    # s.module_map = "BLEData/module.modulemap"    
 
     s.swift_version = '4.1'
 
@@ -25,7 +25,5 @@ Pod::Spec.new do |s|
 
     s.dependency 'Alamofire', '~> 4.7'
     s.dependency 'PromiseKit', '6.2.8'
-    s.dependency 'AwaitKit', '~> 5.0.0'
-
-    
+    s.dependency 'AwaitKit', '~> 5.0.0'    
 end

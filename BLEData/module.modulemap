@@ -1,7 +1,0 @@
-module BLEData {
-  header "YumeData.h"
-  //link "BLEData"
-  export *
-}
-
-//[system]
