@@ -16,6 +16,7 @@
 //https://gcc.gnu.org/onlinedocs/gcc/Structure-Layout-Pragmas.html
 
 // 1 Byte
+#pragma pack(push)
 #pragma pack(1)
 typedef struct {
     uint8_t order;
@@ -30,7 +31,7 @@ typedef struct {
 } BTMetaHeader;
 
 // 6 Byte
-#pragma pack(1)
+//#pragma pack(1)
 typedef struct {
     uint8_t affiliation:4;  // 所屬單位，固定 0
     uint8_t attr:4;         // tc 位置
@@ -48,7 +49,7 @@ typedef struct {
 
 // 4 + (0~15) Byte
 // 路段績效 BT4
-#pragma pack(1)
+//#pragma pack(1)
 typedef struct {
     BTMetaHeader meta;
     uint8_t roadID:7;
@@ -64,7 +65,7 @@ typedef struct {
 
 // 4 + text Byte
 // 旅行時間 BT5
-#pragma pack(1)
+//#pragma pack(1)
 typedef struct {
     BTMetaHeader meta;
     BTRoadPerformance roadPerformance;
@@ -75,10 +76,13 @@ typedef struct {
 
 // 1 + text Byte
 // 旅行時間 BT6~10
-#pragma pack(1)
+//#pragma pack(1)
 typedef struct {
     uint8_t length;
     BTMetaHeader meta;
+    uint8_t graph;
     // text
 } BTEvent;
+#pragma pack(pop)
+
 #endif /* Data_h */
