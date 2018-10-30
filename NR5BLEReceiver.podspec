@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name     = 'NR5BLEReceiver'
-    s.version  = '1.0.8'
+    s.version  = '1.0.9'
     s.license  = 'MIT'
     s.summary  = "..."
     s.homepage = 'https://github.com/yume190/NR5BLEReceiver'
@@ -22,6 +22,8 @@ Pod::Spec.new do |s|
 
     s.dependency 'BigInt', '~> 3.1.0'
     s.dependency 'CryptoSwift', '~> 0.9.0'
+    s.dependency 'Zip', '~> 1.1.0'
+    s.dependency 'SwiftGraph', '~> 2.0.0'
 
     s.dependency 'Alamofire', '~> 4.7'
     s.dependency 'PromiseKit', '6.2.8'
