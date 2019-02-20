@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name     = 'NR5BLEReceiver'
-    s.version  = '1.0.15'
+    s.version  = '1.0.16'
     s.license  = 'MIT'
     s.summary  = "..."
     s.homepage = 'https://github.com/yume190/NR5BLEReceiver'
