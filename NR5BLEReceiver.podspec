@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name     = 'NR5BLEReceiver'
-    s.version  = '1.0.16'
+    s.version  = '1.0.17'
     s.license  = 'MIT'
     s.summary  = "..."
     s.homepage = 'https://github.com/yume190/NR5BLEReceiver'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     # s.source_files = "BLEData/YumeData.h"
     # s.module_map = "BLEData/module.modulemap"    
 
-    s.swift_version = '4.2'
+    s.swift_version = '5.0'
 
     s.dependency 'LayoutAnchor', '~> 4.2.0'
     s.dependency 'CStructDecodable', '~> 4.0.1'
