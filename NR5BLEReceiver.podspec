@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name     = 'NR5BLEReceiver'
-    s.version  = '1.0.19'
+    s.version  = '1.0.20'
     s.license  = 'MIT'
     s.summary  = "..."
     s.homepage = 'https://github.com/yume190/NR5BLEReceiver'
@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 
     s.dependency 'LayoutAnchor', '~> 4.2.0'
     s.dependency 'CStructDecodable', '~> 4.0.1'
-    s.dependency 'YumeAlamofire', '4.2.6'
+    s.dependency 'YumeAlamofire', '5.0.5'
 
-    s.dependency 'BigInt', '~> 3.1.0'
-    s.dependency 'CryptoSwift', '~> 0.9.0'
+    s.dependency 'BigInt', '~> 4.0.0' #4.0.0
+    s.dependency 'CryptoSwift', '~> 1.0.0' # 1.0.0
     s.dependency 'Zip', '~> 1.1.0'
-    s.dependency 'SwiftGraph', '~> 2.0.0'
+    s.dependency 'SwiftGraph', '~> 3.0.0' #3.0.0
 
 end
