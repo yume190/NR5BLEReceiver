@@ -2554,7 +2554,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -2610,7 +2610,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -2666,7 +2666,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -2722,7 +2722,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -2778,7 +2778,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -2834,7 +2834,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -2890,7 +2890,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -2946,7 +2946,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -3002,7 +3002,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -3058,7 +3058,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -3114,7 +3114,7 @@
           "id": 4
         },
         "id": 2363,
-        "description": "頭城-台9-礁溪-北向",
+        "description": "頭城-台9-礁溪-191-北向",
         "direction": 1
       }
     ],
@@ -7873,17 +7873,47 @@
     "host": "頭城機房光SW",
     "model": "",
     "created_at": "2018-07-04T21:47:58.287Z",
-    "locationOffsets": [],
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.591Z",
+        "name": "頭城-坪林行控",
+        "offset": 15600,
+        "origin_id": 370,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 14700,
+        "_id": 330,
+        "type": {
+          "_id": 1,
+          "name": "主線",
+          "id": 1
+        },
+        "id": 330,
+        "description": "頭城-坪林行控",
+        "direction": 1
+      }
+    ],
     "name": "BT-N5-N-30-I-SN-1-頭城",
     "judgment": false,
     "network": "ODS空埠",
     "count": 10,
-    "note": "",
+    "note": "宜4匝道北上方向 (砂港路口進入)",
     "struct": "RMS-A1",
     "phoneNumber": "",
     "coordinate": {
-      "lat": 24.830036,
-      "lng": 121.790769
+      "lat": 24.825368,
+      "lng": 121.788607
     },
     "_id": 159,
     "type": "bt",
@@ -7930,7 +7960,7 @@
         "direction": 1
       }
     ],
-    "name": "BT-N5-N-30-L-頭城-匝道-0",
+    "name": "BT-N5-N-30-L-頭城-匝道-0(取消)",
     "judgment": false,
     "network": "ODS空埠",
     "count": 10,
@@ -7938,8 +7968,8 @@
     "struct": "ETAG-A1",
     "phoneNumber": "",
     "coordinate": {
-      "lat": 24.826587,
-      "lng": 121.789475
+      "lat": 0,
+      "lng": 0
     },
     "_id": 160,
     "type": "bt",
@@ -7955,22 +7985,52 @@
     "host": "頭城機房光SW",
     "model": "",
     "created_at": "2018-07-04T21:47:58.120Z",
-    "locationOffsets": [],
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 500,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
     "name": "BT-N5-N-30-L-頭城-191甲-0.5",
     "judgment": false,
     "network": "ODS空埠",
     "count": 20,
-    "note": "",
+    "note": "191縣道與玉石路交叉口附近裝Vd桿",
     "struct": "CMS-C1",
     "phoneNumber": "",
     "coordinate": {
-      "lat": 24.822874,
-      "lng": 121.786192
+      "lat": 24.8214312,
+      "lng": 121.7845419
     },
     "_id": 161,
     "type": "bt",
     "id": 161,
-    "uuid": "ff08",
+    "uuid": "ff04",
     "description": ""
   },
   {
@@ -7981,7 +8041,37 @@
     "host": "頭城機房光SW",
     "model": "",
     "created_at": "2018-07-04T21:47:58.236Z",
-    "locationOffsets": [],
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 1000,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
     "name": "BT-N5-N-30-L-頭城-191甲-1",
     "judgment": false,
     "network": "ODS空埠",
@@ -7990,8 +8080,8 @@
     "struct": "ETAG-A1",
     "phoneNumber": "",
     "coordinate": {
-      "lat": 24.81933,
-      "lng": 121.783094
+      "lat": 24.8180114,
+      "lng": 121.7820378
     },
     "_id": 162,
     "type": "bt",
@@ -8007,17 +8097,47 @@
     "host": "坪控中心FTTB",
     "model": "",
     "created_at": "2018-07-04T21:47:58.331Z",
-    "locationOffsets": [],
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 1500,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
     "name": "BT-N5-N-30-L-頭城-興農路-1.5",
     "judgment": false,
     "network": "4G",
     "count": 10,
-    "note": "",
+    "note": "興農路與興農路291巷附近",
     "struct": "VD-A2",
     "phoneNumber": "",
     "coordinate": {
-      "lat": 24.817399,
-      "lng": 121.780122
+      "lat": 24.8177406,
+      "lng": 121.7788054
     },
     "_id": 163,
     "type": "bt",
@@ -8033,17 +8153,47 @@
     "host": "坪控中心FTTB",
     "model": "",
     "created_at": "2018-07-04T21:47:58.287Z",
-    "locationOffsets": [],
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 2000,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
     "name": "BT-N5-N-30-L-頭城-興農路-2",
     "judgment": true,
     "network": "4G",
     "count": 10,
-    "note": "",
+    "note": "礁溪鄉農會-供銷部路口 cms",
     "struct": "CMS-C1",
     "phoneNumber": "",
     "coordinate": {
-      "lat": 24.818956,
-      "lng": 121.775433
+      "lat": 24.8198945,
+      "lng": 121.7721703
     },
     "_id": 164,
     "type": "bt",
@@ -8085,17 +8235,47 @@
     "host": "坪控中心FTTB",
     "model": "",
     "created_at": "2018-07-04T21:47:58.121Z",
-    "locationOffsets": [],
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 1500,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
     "name": "BT-N5-N-30-L-頭城-大塭路-1.5",
     "judgment": false,
     "network": "4G",
     "count": 10,
-    "note": "",
+    "note": "興農路與興農路322巷入口",
     "struct": "VD-A2",
     "phoneNumber": "",
     "coordinate": {
-      "lat": 24.816245,
-      "lng": 121.783536
+      "lat": 24.8162634,
+      "lng": 121.7867601
     },
     "_id": 166,
     "type": "bt",
@@ -8111,17 +8291,47 @@
     "host": "坪控中心FTTB",
     "model": "",
     "created_at": "2018-07-04T21:47:58.236Z",
-    "locationOffsets": [],
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 2000,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
     "name": "BT-N5-N-30-L-頭城-大塭路-2",
     "judgment": true,
     "network": "4G",
     "count": 10,
-    "note": "",
+    "note": "興農路與玉石路交叉口附近排水溝路口",
     "struct": "CMS-C1",
     "phoneNumber": "",
     "coordinate": {
-      "lat": 24.816368,
-      "lng": 121.788411
+      "lat": 24.8166024,
+      "lng": 121.7918748
     },
     "_id": 167,
     "type": "bt",
@@ -9234,13 +9444,10 @@
     "description": ""
   },
   {
-    "macaddr": "",
-    "active": false,
-    "place": "VD-N5-S-4-L-石碇-106乙-1.5",
-    "ip": "10.15.132.120",
-    "host": "坪控中心FTTB",
-    "model": "HD-301",
-    "created_at": "2018-07-04T21:47:58.337Z",
+    "place": "頭城交流道",
+    "ip": "10.15.131.202",
+    "host": "坪控中心VPN",
+    "created_at": "2019-10-31T05:40:04.067Z",
     "locationOffsets": [
       {
         "freeway": {
@@ -9250,43 +9457,406 @@
           "id": 10050
         },
         "domain": "N",
-        "fmileAge": 4000,
-        "created_at": "2018-06-28T01:04:19.670Z",
-        "name": "石碇交流道_南下",
-        "offset": 1500,
-        "origin_id": 80020,
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 3000,
+        "origin_id": 80010,
         "icType": {
           "_id": 0,
           "name": "一般交流道",
           "id": 0
         },
-        "tmileAge": 4000,
-        "_id": 2373,
+        "tmileAge": 30300,
+        "_id": 2363,
         "type": {
           "_id": 4,
           "name": "平面路段-上匝道",
           "id": 4
         },
-        "id": 2373,
-        "description": "石碇-106乙-南向",
-        "direction": 0
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
       }
     ],
-    "name": "BT-N5-S-4-L-石碇-106乙-1.5-博覽",
-    "judgment": false,
+    "name": "BT-N5-N-30-L-頭城-台2庚-3",
+    "judgment": true,
     "network": "FTTB空埠",
-    "count": 10,
-    "note": "提供博覽會使用",
-    "struct": "VD-A2",
-    "phoneNumber": "",
+    "count": 20,
+    "note": "",
+    "struct": "CMS-B1",
     "coordinate": {
-      "lat": 24.672952,
-      "lng": 121.812374
+      "lat": 24.846696,
+      "lng": 121.811041
     },
-    "_id": 999,
+    "_id": 189,
     "type": "bt",
-    "id": 999,
+    "id": 189,
+    "uuid": "ff01",
+    "description": ""
+  },
+  {
+    "place": "頭城交流道",
+    "ip": "10.15.132.126",
+    "host": "坪控中心VPN",
+    "created_at": "2019-10-31T05:44:41.191Z",
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 5000,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
+    "name": "BT-N5-N-30-L-頭城-191甲-5",
+    "judgment": true,
+    "network": "4G",
+    "count": 10,
+    "note": "E14標鋼構施作/申請台電包燈",
+    "struct": "ETAG-A1",
+    "coordinate": {
+      "lat": 24.843031,
+      "lng": 121.807023
+    },
+    "_id": 190,
+    "type": "bt",
+    "id": 190,
     "uuid": "ff02",
+    "description": ""
+  },
+  {
+    "place": "頭城交流道",
+    "ip": "10.15.132.127",
+    "host": "坪控中心VPN",
+    "created_at": "2019-10-31T05:46:04.688Z",
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 2500,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
+    "name": "BT-N5-N-30-L-頭城-191甲-2.5",
+    "judgment": false,
+    "network": "4G",
+    "count": 10,
+    "note": "E14標鋼構施作/申請台電包燈",
+    "struct": "ETAG-A1",
+    "coordinate": {
+      "lat": 24.817482,
+      "lng": 121.795712
+    },
+    "_id": 191,
+    "type": "bt",
+    "id": 191,
+    "uuid": "ff03",
+    "description": ""
+  },
+  {
+    "place": "頭城交流道",
+    "ip": "10.15.132.128",
+    "host": "坪控中心VPN",
+    "created_at": "2019-10-31T05:47:21.671Z",
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 3500,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
+    "name": "BT-N5-N-30-L-頭城-茅埔路-3.5",
+    "judgment": true,
+    "network": "4G",
+    "count": 10,
+    "note": "E14標鋼構施作/申請台電包燈",
+    "struct": "ETAG-A1",
+    "coordinate": {
+      "lat": 24.798793,
+      "lng": 121.786248
+    },
+    "_id": 192,
+    "type": "bt",
+    "id": 192,
+    "uuid": "ff04",
+    "description": ""
+  },
+  {
+    "place": "頭城交流道",
+    "ip": "10.16.126.222",
+    "host": "頭城機房",
+    "created_at": "2019-10-31T05:48:05.052Z",
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 3000,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
+    "name": "BT-N5-N-30-L-頭城-191-3",
+    "judgment": true,
+    "network": "E/O",
+    "count": 20,
+    "note": "既設交控電力",
+    "struct": "ETAG-A1",
+    "coordinate": {
+      "lat": 24.810579,
+      "lng": 121.781481
+    },
+    "_id": 193,
+    "type": "bt",
+    "id": 193,
+    "uuid": "ff05",
+    "description": ""
+  },
+  {
+    "place": "頭城交流道",
+    "ip": "10.15.132.129",
+    "host": "坪控中心VPN",
+    "created_at": "2019-10-31T05:48:43.514Z",
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 3500,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
+    "name": "BT-N5-N-30-L-頭城-七結路-3.5",
+    "judgment": false,
+    "network": "4G",
+    "count": 10,
+    "note": "E14標鋼構施作/申請台電包燈",
+    "struct": "ETAG-A1",
+    "coordinate": {
+      "lat": 24.802204,
+      "lng": 121.779838
+    },
+    "_id": 194,
+    "type": "bt",
+    "id": 194,
+    "uuid": "ff06",
+    "description": ""
+  },
+  {
+    "place": "頭城交流道",
+    "ip": "10.15.132.130",
+    "host": "坪控中心VPN",
+    "created_at": "2019-10-31T05:50:03.187Z",
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 4000,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
+    "name": "BT-N5-N-30-L-頭城-七結路-4",
+    "judgment": true,
+    "network": "4G",
+    "count": 10,
+    "note": "E14標鋼構施作/申請台電包燈",
+    "struct": "ETAG-A1",
+    "coordinate": {
+      "lat": 24.807796,
+      "lng": 121.769816
+    },
+    "_id": 195,
+    "type": "bt",
+    "id": 195,
+    "uuid": "ff07",
+    "description": ""
+  },
+  {
+    "place": "頭城交流道",
+    "ip": "10.15.132.131",
+    "host": "坪控中心VPN",
+    "created_at": "2019-10-31T05:48:27.151Z",
+    "locationOffsets": [
+      {
+        "freeway": {
+          "_id": 10050,
+          "name": "國5",
+          "code": 5,
+          "id": 10050
+        },
+        "domain": "N",
+        "fmileAge": 30300,
+        "created_at": "2018-06-28T01:04:19.669Z",
+        "name": "頭城交流道_北上",
+        "offset": 5500,
+        "origin_id": 80010,
+        "icType": {
+          "_id": 0,
+          "name": "一般交流道",
+          "id": 0
+        },
+        "tmileAge": 30300,
+        "_id": 2363,
+        "type": {
+          "_id": 4,
+          "name": "平面路段-上匝道",
+          "id": 4
+        },
+        "id": 2363,
+        "description": "頭城-台9-礁溪-191-北向",
+        "direction": 1
+      }
+    ],
+    "name": "BT-N5-N-30-L-頭城-台9-礁溪-5.5",
+    "judgment": true,
+    "network": "4G",
+    "count": 20,
+    "note": "E14標鋼構施作",
+    "struct": "ETAG-A1",
+    "coordinate": {
+      "lat": 24.807931,
+      "lng": 121.766678
+    },
+    "_id": 196,
+    "type": "bt",
+    "id": 196,
+    "uuid": "ff08",
     "description": ""
   }
 ]
